@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+:root {
+	--primary-color: #3a4052;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+	line-height: 1.5;
+    background-color: black;
+    color: white;
+    overflow-x:hidden ;
+}
+
+a {
+	text-decoration: none;
+	color: var(--primary-color);
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+	font-weight: 300;
+	font-size: 60px;
+	line-height: 1.2;
+	margin-bottom: 15px;
+}
+h3{
+    font-weight: 300;
+	line-height: 1.2;
+	margin-bottom: 15px;
+}
+
+.showcase {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #fff;
+	padding: 0 20px;
+}
+
+.video-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	
+}
+
+.video-container video {
+	min-width: 100%;
+	min-height: 100%;
+  position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	object-fit: cover;
+}
+
+.video-container:after {
+	content: '';
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+}
+
+.content {
+	z-index: 2;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 30px;
+	background: var(--primary-color);
+	color: #fff;
+	border-radius: 5px;
+	border: solid #fff 1px;
+	margin-top: 25px;
+	opacity: 0.7;
+}
+
+.btn:hover {
+	transform: scale(0.98);
+    cursor: pointer;
+}
+#introc{
+    background-image:url(res/quantum-computing-1920.jpg);
+    background-position: right 0px center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-size: large;
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    height: 100vh;
+}
+#introc h2{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40;
+}
+
+.start{
+    padding: 20px;
+    display: inline-block;
+    line-height: 2;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 17%;
+}
+.computer{
+    position: absolute;
+    width: 700px;
+    top:-10%;
+    left: 80%;
+    z-index: -1;
+    height: 350px;
+}
+.about{
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    transform: translate(-55%,-50%);
+    font-family: 'Montserrat', sans-serif;
+    padding: 40px;
+    font-size: larger;
+}
+
+.about h2{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40;
+}
+
+.learn h2{
+    position: absolute;
+    top: -5%;
+}
+.dive{
+    position: absolute;
+    top: 5%;
+}
+hr{
+    position: absolute;
+    width: 50%;
+    top: 183%;
+    left: 23%;
+}
+a {
+    all: unset;
+  }
+a:hover{
+    cursor: pointer;
+    color: aqua;
+}

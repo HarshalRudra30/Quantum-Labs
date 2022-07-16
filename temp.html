@@ -1,0 +1,183 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tempstyle.css">
+    <title>QDocs</title>
+</head>
+<body>
+    <hr class="hr-1">
+    <section id="main">
+        <div id="particles-js"></div> 
+        <section id="intro">
+            <h1 class="name">Quantum Computing</h1>
+            <h2>A new way to process information using the laws of physics</h2>
+        </section>
+        <section id="intro2">
+            <h1 class="head1">Unlock real power of computing through Quantum Computing</h1>
+            <p class="p1">
+                The field of quantum technology is moving fast.
+                Quantum computers have the potential to solve problems that are practically impossible on even today’s supercomputers
+            </p>
+        </section>
+    </section>
+    
+
+    <section id="sec1">
+        <h1 class="head2">Why Quantum Computing and not classical Computing</h1>
+        <div class="text1">
+            <h2 class="classical">Classical</h2>
+            <p class="p2">
+                Computers today are powered by manipulating bits of 0s and 1s.
+                In other words, every single instruction, letter, image, or video can be represented by sequences of 1s and 0s.
+                For example, 1001 could represent an instruction to add 1 to 1 while 1011 could be an instruction to multiply 1 by 1. 
+                This binary encoding system isn’t too bad at processing information, and can be used to stream your favorite Netflix show, populate your diverse Instagram Reels feed, or update your deteriorating crypto portfolio. 
+                However, this approach falls short when you bring qubits to the table.
+            </p>
+        </div>
+           <img src="/images/classic bit.gif" alt="classical-bits"class="img1">
+
+
+           <div class="text2">
+            <h2 class="quantum">Quantum</h2>
+            <p class="p3">
+                A qubit (or quantum bit) is the basic unit of information in a quantum computer and can be an atom or sub-atomic particle (among other things). 
+                Computers that use qubits can take advantage of the multiple states of superposition and conduct processes in parallel. 
+                Borrowing the example for binary computers, a qubit could carry out the instruction 1001 and 1011 at the same time, using the power of superposition(which we will discuss in further in detail).
+                Basically as of know we get a brief overview that bits perform operations sequentially and explore options one-by-one but Qubit perform operations simultaneously and explore all options at once by the property of superpostion.
+            </p>
+        </div>
+        <img src="/images/quantum.gif" alt="quantum-bits" class="img2">
+    </section>
+
+    <section id="sec2">
+        <h1 class="head3">Understanding Quantum Spin</h1>
+        <div class="text3">
+            <p>
+                We all somewhere can relate with the term Quantum Spin which is also called as Spin Quantum Number in Bohr's Atomic Model with which we are familiar.
+                By definition it is also known as intrinsic angular momentum of subatomic paticles.
+                But as of now we don't have that much precise picture of spin that what it is capable of!
+                What if I say that the basis of whole quantum processing is spin and we are using this property of subatomic particle to explain the qubit.
+                It sounds very weird right!
+                Let's give you a brief overview how it's siginificance can be understood in the world of quantum computing.
+                Spin can be seen in terms of mathematics as a 2-D Complex Numbers which can be represented in matrices and the spin up and spin down are our basis just like in three-dimensional Euclidean geometry we use î,ĵ,k̂ as basis vectors.
+                Any state of Qubit can be seen as a combination of these two basis(spin up and spin down) just as we can write any vector in space with the combination of î,ĵ,k̂. 
+            </p>
+        </div>
+        <div class="text31">
+            <p>Now taking about subatomic particles we are going to talk basically about electron spin as we are so much familiar with it.
+                For the fact that magnetic field can alter the Quantum spin(orientations) of electrons which was proved in Stern-Gerlach Experiment.
+                And this very fact of magnetic field which is applicable for Quantum spin is used in Quantum computing for making operations on Qubits and time varying results can be found with the help of Scrondinger equation.
+                Above Equation is the solution of Scrondinger Equation and are used as a reference for making various Quantum Gates.
+                At somepoint these complex equations can be mind tickling so we have our application which simulates and helps us to visualize the effects of Quantum Gates on Bloch Sphere(we see further) which makes it easy to understand the effects of Quantum gates performed on Qubit.</p>
+        </div>
+        <video src="/images/spin-video.mp4" autoplay muted loop class="img3"></video>
+        <img src="/images/matrix exponential .png" alt="se" class="img31">
+        <a href="https://link.medium.com/NFD88ra8Frb">
+            <button class="learn-more">LEARN MORE</button>
+        </a>
+        
+    </section>
+    <section id="sec3">
+        <h1 class="head4">Superposition and Entanglement</h1>
+        <div class="text4">
+            <p>
+                <p> <strong>Superposition</strong>  refers to the quantum phenomenon where a quantum system can exist in multiple states or places at the exact same time. In other words, something can be “here” and “there,” or “up” and “down” at the same time.</p>
+                <p>Superposition refers to the quantum phenomenon where a quantum system can exist in multiple states or places at the exact same time. In other words, something can be “here” and “there,” or “up” and “down” at the same time.</p>
+                <p>Superposition helps do away from binary constraints. The working of a quantum computer is based on using the particles in superposition. Rather than representing bits, such particles represent qubits, which can take on the value 0, 1, or both simultaneously.</p>
+                <p>Quantum computer can hold the information using a system that can exist in two states at the same time. This is possible due to the superposition principle of quantum mechanics. This “qubit” can simultaneously store a “0” and “1.” Similarly, two qubits can simultaneously hold four (22) values: 00, 01, 10, and 11.</p>
+            </p>
+        </div>
+        <video src="/images/superpos.mp4" autoplay muted loop class="superpos"></video>
+        <div class="text5">
+            <p>
+                <p> <strong> Quantum entanglement</strong> is a physical phenomenon that occurs when pairs or groups of particles generate or interact in ways such that the quantum state of each particle cannot be described independently of the others.
+                </p>
+                <p>Measurements of physical properties such as position, momentum, spin, and polarization, performed on entangled particles establish appropriate correlation among them.</p>
+                <p>Therefore, it appears that one particle of an entangled pair “knows” what measurement has been performed on the other, and with what outcome. This is true even though there are no known means of communicating such information between the particles. And, even when the particles are at an arbitrarily enormous distance away from each other at the time of measurement.Hence Einstien calls this paradox as <strong>"Spooky action at a distance"</strong> </p>
+                <p>Entanglement is necessary to realize quantum computing </p>
+            </p>
+        </div>
+        <video src="/images/entanglement.mp4" autoplay muted loop class="img4"></video>
+        <a href="https://medium.com/@Pratik_Aman/introduction-to-the-quantum-computing-world-d466ddd44c64">
+            <button class="learn-more2">LEARN MORE</button>
+        </a>
+    </section>
+
+
+    <section id="sec4">
+        <h1 class="head5">Single Qubit gates</h1>
+        <div class="text6">
+                <p>The <strong> X-gate </strong>is represented by the Pauli-X matrix
+                To see the effect a gate has on a qubit, we simply multiply the qubit’s statevector by the gate. We can see that the X-gate switches the amplitudes of the states |0⟩ and |1⟩
+                </p>
+        </div>
+            <img src="/images/X-gate2.png" alt="x1" class="img5">
+            <div class="text619">
+                <div> <p>Similarly to the X-gate, the Y & Z Pauli matrices also act as the <strong> Y & Z-gates </strong>in our quantum circuits.
+                    And, unsurprisingly, they also respectively perform rotations by π around the y and z-axis of the Bloch sphere.</p></div>
+            </div>
+            <img src="/images/Y&Z-gates.png" alt="yz" class="img7">
+            <div class="text69">
+                <p>The <strong>Hadamard gate (H-gate)</strong>  is a fundamental quantum gate. It allows us to move away from the poles of the Bloch sphere and create a superposition of |0⟩ and |1⟩
+                </p>
+            </div>
+            <img src="/images/hadamard.png" alt="h" class="imgh">
+            <div class="text7">
+                <p>The next gate to mention is the <strong>S-gate</strong>  (sometimes known as the √Z-gate), this is a P-gate with ϕ=π/2. It does a quarter-turn around the Bloch sphere. It is important to note that unlike every gate, the S-gate is not its own inverse! As a result, you will often see the S†-gate, (also “S-dagger”, “Sdg” or √Z†-gate). The S†-gate is clearly an P-gate with ϕ=−π/2</p>
+            </div>
+            <img src="/images/S-gates.png" alt="s" class="img8">
+            <div class="text8">
+                <p>The <strong>T-gate</strong> is a very commonly used gate, it is an P-gate with ϕ=π/4.It does a half-quarter-turn around the Bloch sphere. It is important to note that unlike every gate, the T-gate is not its own inverse! As a result, you will often see the T†-gate, (also “T-dagger”, “Tdg” or 4√Z†-gate). The T†-gate is clearly an P-gate with ϕ=−π/4</p>
+            </div>
+            <img src="/images/T-gates.png" alt="t" class="img9"> 
+    </section>
+    <section id="sec5">
+        <h1 class="head6">Applications of Quantum Technology</h1>
+        <div class="text9">
+            <p>
+                <li>
+                    <strong>QUANTUM SENSING - DETECT THE UNDETECTABLE</strong> 
+                    <p>Quantum sensors exploit the extreme sensitivity of quantum devices. This emerging application of quantum technology puts this fragility to work by helping you to detect smaller signals from greater distances and unlock new capabilities that were never before possible.</p>
+                </li>
+                <li>
+                    <strong>ADVANCED NAVIGATION</strong> 
+                    <p>Quantum-enabled PNT is the future of navigation. The unreliability of GPS in urban environments, high latitudes, subsurface settings, and contested battlefields mandates new approaches to navigation</p>
+                </li>
+                <li>
+                    <strong>EARTH OBSERVATION</strong>
+                    
+                    <p>Adding quantum-enabled gravity and magnetic-field observation provides a new set of eyes to see the unseen; measure tiny changes that are currently invisible; map deviations in underground aquifer levels, monitor changes in the ice caps, and detect subsurface impacts from mining or covert activities.</p>
+                </li>
+                <li>
+                    <strong>DEFENSE AND SPACE</strong>
+                    <p>The defense and aerospace industries require advanced computing and surveillance technologies to maintain advantage on the battlefield.</p>
+                </li>
+            </p>
+        </div>
+        <img src="/images/advantages.jpg" alt="advantages" class="img10">
+    </section>
+
+    <section id="sec6">
+        <h1 class="head7">Project by Inside Labs</h1>
+        <a href="https://insidelibrary.weebly.com/">
+            <img src="/images/IMG-20220711-WA0000.jpg" alt="inside" class="img11">
+        </a>
+    </section>
+
+</body>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+    particlesJS.load('particles-js','particles.json',function(){
+        console.log('particles.json loded ...');
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</html>
+
+
+<!---------Matrices of Spin Up and Down Pic and ψ as combination of these two states----------->
